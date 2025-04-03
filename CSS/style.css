@@ -1,0 +1,166 @@
+body{
+    background-color: #f4f4f4;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#main-header{
+    background-color: #324996;
+    height: 70px;
+    padding: 10px;
+}
+
+#options{
+   float: left;
+}
+
+#options ul{
+   padding: 0;
+   list-style: none;
+   text-align: right;
+}
+
+#options li{
+   display: inline;
+}
+
+
+#navbar{
+   float: right;
+   margin-right: 5%;
+}
+
+#navbar ul{
+    padding: 0;
+    list-style: none;
+    text-align: left;
+}
+
+#navbar li{
+    display: inline;
+}
+
+#navbar a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+#navbar a:hover{
+    color: #f8a220;
+}
+
+#logo{
+   float:left;
+   margin-left: 5%;
+}
+
+#logo img{
+   padding: 3px;
+}
+
+ #showcase{
+    background-image: url('../IMAGES/background/cycling\ group.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 80%;
+    margin-bottom: 30px;
+    text-align: left;
+ }
+
+ #showcase h1{
+    color: #f8a220;
+    font-size: 100px;
+    line-height: 1.2em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+ }
+ .hero {
+   position: relative;
+   background:none;
+   display: inline-block;
+   align-items: center;
+   color: white;
+   text-align: left;
+   padding: 50px;
+   margin:350px 0px 50px 0px;
+ }
+ .hero-content {
+   max-width: max-content;
+   background: none;
+   padding: 5px;
+   border-radius: 10px;
+ }
+.challenge-box {
+    background: #f4a236;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bold;
+    width: max-content;
+    margin-right: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.cta-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: white;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+   }
+.cta-button:hover {
+    background: #f4a236;
+    color: white;
+}
+ #main{
+    float: left;
+    width: 60%;
+    padding: 0 30px;
+    box-sizing: border-box;
+ }
+
+ #sidebar{
+    float: right;
+    width: 40%;
+    height: 300px;
+ }
+
+ #sidebar img{
+    max-height: 300px;
+ }
+
+ #main-footer{
+    background-color: #324996;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+ }
+
+ @media (max-width:600px){
+    #main{
+        width: 100%;
+        float:none;
+    }
+
+    #sidebar{
+        width: 100%;
+        float: none;
+    }
+ }
